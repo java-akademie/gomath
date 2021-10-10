@@ -6,3 +6,9 @@ func Add(a ...int) int {
 	for _, v := range a { sum += v }
 	return sum
 }
+
+// Sub : returns a - b
+func Sub(a ,b int) int {
+	return a-b
+}
+
